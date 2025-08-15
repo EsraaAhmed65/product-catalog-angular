@@ -12,10 +12,9 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './product-detail.component.html',
   styleUrls: ['./product-detail.component.css']
 })
-export class ProductDetailComponent {
+
+export class ProductDetailComponent implements OnInit { 
   faArrowLeft = faArrowLeft;
-}
-export class ProductDetailComponent implements OnInit {
   product?: Product;
 
   constructor(private route: ActivatedRoute, private productSvc: ProductService) {}

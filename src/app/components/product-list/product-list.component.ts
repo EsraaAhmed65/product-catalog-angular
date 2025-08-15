@@ -12,10 +12,9 @@ import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
-export class ProductListComponent {
-  faCircleRight = faCircleRight;
-}
+
 export class ProductListComponent implements OnInit {
+  faCircleRight = faCircleRight;
   categoryName = '';
   products: Product[] = [];
 
