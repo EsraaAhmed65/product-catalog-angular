@@ -1,0 +1,16 @@
+<h2 class="section-title text-center mb-4">Our Categories</h2>
+
+<div class="row g-4">
+    <div class="col-12 col-sm-6 col-lg-4" *ngFor="let c of categories">
+        <!-- add category-card class -->
+        <a class="card cat-card text-decoration-none h-100" [routerLink]="['/category', c]"
+            routerLinkActive="border-primary">
+            <img [src]="srcFor(c)" alt="{{ c }} category" title="{{ c }} category image" class="product-thumb"
+                loading="lazy">
+
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">{{ c }}</h5>
+            </div>
+        </a>
+    </div>
+</div>

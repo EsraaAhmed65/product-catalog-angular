@@ -1,0 +1,13 @@
+.detail-card { max-width: 720px; }         
+.detail-hero {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.detail-card .price {
+  color: chocolate !important;
+}
+
