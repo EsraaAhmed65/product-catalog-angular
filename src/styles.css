@@ -1,6 +1,3 @@
-/* runtime vars (Font Awesome webfonts path for iOS/Safari) */
-:root { --fa-font-path: "/assets/webfonts"; }
-
 /* layout */
 html, body { height: 100%; }
 body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color:#374151; }

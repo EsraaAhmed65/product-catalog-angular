@@ -1,4 +1,4 @@
-## On vercel:
+## On Vercel:
 https://product-catalog-angular.vercel.app/
 
 
