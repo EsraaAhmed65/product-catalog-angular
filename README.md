@@ -1,3 +1,7 @@
+## On vercel:
+https://product-catalog-angular.vercel.app/
+
+
 # Product Catalog (Angular · DI & Routing)
 
 A simple Angular app that demonstrates **dependency injection** and **routing**.  
