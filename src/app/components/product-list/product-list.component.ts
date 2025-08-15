@@ -2,14 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Product, ProductService } from '../../services/product.service';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, FontAwesomeModule],
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
+export class ProductListComponent {
+  faCircleRight = faCircleRight;
+}
 export class ProductListComponent implements OnInit {
   categoryName = '';
   products: Product[] = [];
