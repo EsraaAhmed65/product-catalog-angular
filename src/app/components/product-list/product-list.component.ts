@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Product, ProductService } from '../../services/product.service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faCircleRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-product-list',
@@ -15,6 +15,7 @@ import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
 
 export class ProductListComponent implements OnInit {
   faCircleRight = faCircleRight;
+  faArrowLeft   = faArrowLeft; 
   categoryName = '';
   products: Product[] = [];
 
